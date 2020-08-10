@@ -1,3 +1,3 @@
 class Condition < ApplicationRecord
-    has_many :Books
+    has_many :Book
 end

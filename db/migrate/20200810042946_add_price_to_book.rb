@@ -1,5 +1,5 @@
 class AddPriceToBook < ActiveRecord::Migration[6.0]
   def change
-    add_column :books, :price, :integer
+    add_column :book, :price, :integer
   end
 end
