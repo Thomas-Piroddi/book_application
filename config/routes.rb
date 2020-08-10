@@ -5,3 +5,5 @@ end
 Rails.application.routes.draw do
   get "/", to: "pages#home", as: "root"
 end
+
+post "/data", to: "pages#data"
