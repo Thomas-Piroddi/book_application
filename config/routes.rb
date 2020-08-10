@@ -1,9 +1,5 @@
 Rails.application.routes.draw do
   get "/books", to: "books#index"
+  get "/", to: "page#home", as: "root"
+  post "/data", to: "page#data"
 end
-
-Rails.application.routes.draw do
-  get "/", to: "pages#home", as: "root"
-end
-
-post "/data", to: "pages#data"
