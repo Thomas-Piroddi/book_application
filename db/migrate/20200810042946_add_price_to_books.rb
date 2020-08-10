@@ -1,4 +1,4 @@
-class AddPriceToBooks < ActiveRecord::Migration[6.0]
+class AddPriceToBook < ActiveRecord::Migration[6.0]
   def change
     add_column :book, :price, :integer
   end

@@ -1,5 +1,5 @@
-class AddUserIdToBooks < ActiveRecord::Migration[6.0]
+class AddUserIdToBook < ActiveRecord::Migration[6.0]
   def change
-    add_column :books, :user_id, :integer
+    add_column :book, :user_id, :integer
   end
 end
