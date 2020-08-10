@@ -32,4 +32,4 @@ class PaymentsController < ApplicationController
       purchase_status.save
       link_to failure_payment_path unless trans
     end
-  end
+end
