@@ -5,6 +5,5 @@ for i in 1..10
         publisher: Faker::Book.publisher,
         date_published: Faker::Date.between(from: 200.days.ago, to: Date.today)
     )
-
     puts "Created #{i} records"
 end

@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 2020_08_10_061723) do
     t.string "publisher"
     t.date "date_published"
     t.integer "price"
+    t.integer "user_id"
   end
 
   create_table "categories", force: :cascade do |t|
@@ -64,6 +65,7 @@ ActiveRecord::Schema.define(version: 2020_08_10_061723) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "name"
+    t.integer "postcode"
     t.index ["email"], name: "index_user_on_email", unique: true
     t.index ["reset_password_token"], name: "index_user_on_reset_password_token", unique: true
   end
