@@ -55,3 +55,24 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "faker", "~> 2.13"
+
+
+group :development do
+
+gem 'capistrano'
+
+gem 'capistrano-passenger'
+
+gem 'capistrano-rails'
+
+gem 'capistrano-bundler'
+
+gem 'capistrano-rvm'
+
+gem 'highline'
+
+end
+
+
+
+gem 'dotenv-rails'

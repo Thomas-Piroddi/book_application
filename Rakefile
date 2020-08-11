@@ -4,3 +4,17 @@
 require_relative 'config/application'
 
 Rails.application.load_tasks
+require 'capistrano/rails'
+
+require 'capistrano/passenger'
+
+require "capistrano/scm/git"
+
+
+require "capistrano/rvm"
+
+
+
+require "capistrano/bundler"
+
+require "capistrano/rails/assets"
